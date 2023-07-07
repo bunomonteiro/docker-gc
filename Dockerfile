@@ -8,7 +8,7 @@ RUN apk upgrade --available && \
     touch /run/openrc/softlevel
 ENTRYPOINT ["/home/entrypoint.sh"]
 
-# Running as ad-doc
+# Running as ad-hoc
 #
 # Example 1: prune every minute
 # docker run -d -v /var/run/docker.sock:/var/run/docker.sock bunomonteiro/docker-gc
